@@ -6,7 +6,7 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(PIN_LED, toggle); // turn off LED.
-  toggle = 1-toggle; //toggle LED value.
-  delay(1000); // wait for 1,000 milliseconds
+  digitalWrite(PIN_LED, toggle);
+  toggle = 1-toggle;
+  delay(1000);
 }
